@@ -1,0 +1,91 @@
+package com.tutorial;
+
+public class Main {
+    public static void main(String[] args) {
+        // operator komparasi...ini akan menghasilkan nilai dalam bentuk boolean
+
+
+        int a,b;
+        boolean HasilKomparasi;
+
+        // operator equal atau persamaan
+        System.out.println("----- PERSAMAAN");
+        a = 10;
+        b = 10;
+        HasilKomparasi = (a == b);
+        System.out.printf("%d == %d --> %b \n",a,b, HasilKomparasi);
+
+        a = 12;
+        b = 10;
+        HasilKomparasi = (a == b);
+        System.out.printf("%d == %d --> %b \n", a,b, HasilKomparasi);
+
+        // operator not equal atau pertidaksamaan
+        System.out.println("----- PERTIDAKSAMAAN");
+        a = 10;
+        b = 10;
+        HasilKomparasi = (a != b);
+        System.out.printf("%d != %d --> %b \n",a,b, HasilKomparasi);
+
+        a = 12;
+        b = 10;
+        HasilKomparasi = (a != b);
+        System.out.printf("%d != %d --> %b \n",a,b, HasilKomparasi);
+
+        //operator less than atau kurang dari
+        System.out.println("----- KURANG DARI");
+        a = 9;
+        b = 10;
+        HasilKomparasi = (a < b);
+        System.out.printf("%d < %d --> %b \n",a,b, HasilKomparasi);
+
+        a = 12;
+        b = 10;
+        HasilKomparasi = (a < b);
+        System.out.printf("%d < %d --> %s \n",a,b, HasilKomparasi);
+
+        // operator greater than atau lebih dari
+        System.out.println("----- LEBIH  DARI");
+        a = 9;
+        b = 10;
+        HasilKomparasi = (a > b);
+        System.out.printf("%d > %d --> %b \n",a,b, HasilKomparasi);
+
+        a = 12;
+        b = 10;
+        HasilKomparasi = (a > b);
+        System.out.printf("%d > %d --> %s \n",a,b,HasilKomparasi);
+
+        //operator less than equal atau lebih kecil sama dengan
+        System.out.println("----- KURANG DARI SAMA DENGAN");
+        a = 9;
+        b = 10;
+        HasilKomparasi = (a <= b);
+        System.out.printf("%d <= %d --> %b \n",a,b, HasilKomparasi);
+
+        a = 10;
+        b = 10;
+        HasilKomparasi = (a <= b);
+        System.out.printf("%d <= %d --> %s \n",a,b, HasilKomparasi);
+
+        // operator greater than equal atau lebih besar sama dengan
+        System.out.println("----- LEBIH BESAR SAMA DENGAN");
+        a = 9;
+        b = 10;
+        HasilKomparasi = (a >= b);
+        System.out.printf("%d >= %d --> %b \n",a,b, HasilKomparasi);
+
+        a = 10;
+        b = 10;
+        HasilKomparasi = (a >= b);
+        System.out.printf("%d >= %d --> %b \n",a,b, HasilKomparasi);
+
+        a = 12;
+        b = 10;
+        HasilKomparasi = (a >= b);
+        System.out.printf("%d >= %d --> %b \n",a,b, HasilKomparasi);
+
+
+
+    }
+}

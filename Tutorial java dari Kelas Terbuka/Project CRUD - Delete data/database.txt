@@ -1,0 +1,4 @@
+fiersabesari_2012_1,2012,fiersa besari,media kita,jejak langkah
+faqihza_2019_2,2019,faqihza,gramedia,belajar python
+faqihza_2019_3,2019,faqihza,gramedia,belajar Java
+faqihza_2020_1,2020,faqihza,kelas terbuka,membagi waktu belajar
